@@ -1,0 +1,13 @@
+:root {
+    font-size: 13px;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial,sans-serif;
+}
