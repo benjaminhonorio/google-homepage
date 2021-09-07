@@ -93,3 +93,59 @@ body {
     background:#000;
     opacity: 60%;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.logo {
+    width: 275px;
+    margin-bottom: 1.5em;
+}
+
+.search-form {
+    border: 1.1px solid #ddd;
+    border-radius: 2em;
+    width: 80%;
+    max-width: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: .5em 1em;
+}
+
+.search-form:hover,
+.search-form:focus {
+    box-shadow: 0px 1.5px 5px 1px rgba(0, 0, 0, 0.125);
+}
+
+.search-space {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    height: 2.5rem;
+}
+
+.search-icon {
+    opacity: 0.6;
+}
+
+.search-form-buttons>input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: .25em;
+    padding: .8rem 2rem;
+    color: rgba(0, 0, 0, 0.85);
+    margin: 2px 5px;
+    cursor: pointer;
+}
+
+.search-form-buttons>input:hover {
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
