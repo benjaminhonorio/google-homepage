@@ -149,3 +149,42 @@ main {
     border: 1px solid #ccc;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
 }
+
+footer {   
+    background-color: #f2f2f2;
+    color: #70757a;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer {
+    display: flex;
+    list-style: none;
+    padding: 0 1.5em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.footer-left,
+.footer-right {
+    display: flex;
+}
+
+.footer li {
+    padding: 1em;
+}
+
+.footer li>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer li>a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    margin-left: 6em;
+}
