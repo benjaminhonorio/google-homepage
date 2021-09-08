@@ -185,6 +185,8 @@ footer {
     text-decoration: underline;
 }
 
-.footer-right {
-    margin-left: 6em;
+@media (max-width: 610px) {
+    .footer {
+        justify-content: center;
+    }
 }
